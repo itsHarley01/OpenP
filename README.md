@@ -43,7 +43,7 @@ This is how I set it up on my own machine:
 
 1. In my user directory (`C:\Users\sampleuser\`), I created a folder named `DevTools`
 2. I moved or for you clone this project into that folder, so the path looks like this: (`C:\Users\sampleuser\DevTools\openp`)
-3. 3. I opened **Environment Variables** from System Settings, selected the **"Path"** under User Variables, and added the full path to the `openp` folder.
+3. I opened **Environment Variables** from System Settings, selected the **"Path"** under User Variables, and added the full path to the `openp` folder.
 4. You'll also need to have **Python** installed to run this tool.
 
 ## 🚀 How to Use It
