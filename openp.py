@@ -62,17 +62,17 @@ def edit_config():
             updated = input(f"Path {i+1} (new, leave blank to keep): ").strip()
             new_paths.append(updated if updated else path)
         configs[choice] = new_paths
-        print(f"✅ Paths for '{choice}' updated.")
+        print(f"Paths for '{choice}' updated.")
         
     elif option == "2":
         count = int(input("How many new paths to add? "))
         for i in range(count):
             new_path = input(f"Enter new path {i+1}: ").strip()
             configs[choice].append(new_path)
-        print(f"✅ {count} new path(s) added to '{choice}'.")
+        print(f"{count} new path(s) added to '{choice}'.")
 
     else:
-        print("❌ Invalid option.")
+        print("Invalid option.")
         return
 
     save_configs(configs)
@@ -80,7 +80,7 @@ def edit_config():
 def run_config(name):
     configs = load_configs()
     if name not in configs:
-        print(f"❌ Config '{name}' not found.")
+        print(f"Config '{name}' not found.")
         return
 
     print(f"Opening paths for '{name}'...")
@@ -125,7 +125,7 @@ def main():
         elif choice == 'z':
             break
         else:
-            print("❌ Invalid choice.")
+            print("Invalid choice.")
 
 if __name__ == "__main__":
     main()
