@@ -1,3 +1,1 @@
-[conf1]
-C:\Users\Harley\RidePay\RidePay-Mobile
-C:\Users\Harley\RidePay\Backend
+
